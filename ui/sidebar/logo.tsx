@@ -8,11 +8,6 @@ const Container = styled.div`
   margin-bottom: 15px;
 `
 
-//IS_FIBER_READY_YET
 export default function Logo() {
-  return (
-    <Container>
-      <img width={200} src={logo} />
-    </Container>
-  )
+  return <Container>IS_FIBER_READY_YET</Container>
 }

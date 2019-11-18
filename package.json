@@ -83,7 +83,7 @@
     "react-spring": "^8.0.9",
     "react-tippy": "^1.2.3",
     "react-virtualized-auto-sizer": "^1.0.2",
-    "react-window": "^1.6.2",
+    "react-window": "^1.8.5",
     "reflect-metadata": "^0.1.12",
     "resolve-pkg": "^1.0.0",
     "rimraf": "^2.6.2",
