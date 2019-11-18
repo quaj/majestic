@@ -7,7 +7,7 @@ declare var PRODUCTION: boolean
 
 let WS_URL = 'ws://localhost:4000'
 let HTTP_URL = 'http://localhost:4000'
-if (PRODUCTION) {
+if (PRODUCTION && window.location.hostname !== 'localhost') {
   WS_URL = `wss://${window.location.host}`
   HTTP_URL = `https://${window.location.host}`
 }
